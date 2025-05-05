@@ -1,11 +1,24 @@
 import hashlib
 
-key_part_staticl_trial = "picoCTF{1n_7h3_|<3y_of_"
-#key_part_dynamicl_trial = "xxxxxxxx"
+username_trial = b"ANDERSON"
+
+key_part_static_trial = "picoCTF{1n_7h3_|<3y_of_"
+
+key_part_dynamic1_trial = ""
+
 key_part_static2_trial = "}"
 
-temp-hashlib.sha256(b"FREEMAN").hexdigest()
-key_part_dynamicl_trial = temp[4]+temp[5]+temp[3]+temp[6]+temp[2]+temp[7]+temp[1]+temp[8]
+hash = hashlib.sha256(username_trial).hexdigest()
 
-key_full_template_trial = key_part_static_trial + key_part_dynamicl_trial + key_part_static2_trial
-print(key_full_template_trial)
+key_part_dynamic1_trial += hash[4]
+key_part_dynamic1_trial += hash[5]
+key_part_dynamic1_trial += hash[3]
+key_part_dynamic1_trial += hash[6]
+key_part_dynamic1_trial += hash[2]
+key_part_dynamic1_trial += hash[1]
+key_part_dynamic1_trial += hash[7]
+key_part_dynamic1_trial += hash[8]
+
+# Exibir a flag completa
+flag = key_part_static_trial + key_part_dynamic1_trial + key_part_static2_trial
+print(flag)
