@@ -1,6 +1,6 @@
 # Cookie Monster Secret Recipe
 ###### Solved by @pedrotitoinatel70
-> This is a CTF about Web Exploitation, browser_webshell_solvable
+> This is a CTF about Web Exploitation
 ## About the Challenge
 Cookie Monster has hidden his top-secret cookie recipe somewhere on his website. As an aspiring cookie detective, your mission is to uncover this delectable secret. Can you outsmart Cookie Monster and find the hidden recipe?
 You can access the Cookie Monster here and good luck
