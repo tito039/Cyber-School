@@ -1,4 +1,4 @@
-# Cookie Monster Secret Recipe
+# Flag Hunters
 ###### Solved by @pedrotitoinatel70
 > This is a CTF about Reverse Engineering 
 ## About the Challenge
