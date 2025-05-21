@@ -1,4 +1,4 @@
-# Cookie Monster Secret Recipe
+# RED
 ###### Solved by @pedrotitoinatel70
 > This is a CTF about Forensics
 ## About the Challenge
