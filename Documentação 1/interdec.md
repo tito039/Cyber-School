@@ -1,4 +1,4 @@
-# Cookie Monster Secret Recipe
+# Interdec 
 ###### Solved by @pedrotitoinatel70
 > This is a CTF about Cryptography
 ## About the Challenge
