@@ -5,6 +5,7 @@
 A questão consiste em decodificar uma imagem para encontrar um texto que ao ser descriptografado nos revelará a flag. 
 ## Solution
 A questão nos fornece apenas uma imagem vermelha no formato PNG e o objetivo é encontrar a flag escondida nela.
+
 [![Captura-de-tela-2025-05-22-161359.png](https://i.postimg.cc/HW2LZ2zK/Captura-de-tela-2025-05-22-161359.png)](https://postimg.cc/RqW9qwjQ)
 
  Para isso, acessei o site https://www.aperisolve.com/ e carreguei a imagem para realizar a análise.
