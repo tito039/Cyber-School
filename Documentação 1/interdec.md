@@ -4,11 +4,11 @@
 ## About the Challenge
 O desafio consiste em obter textos criptografados e descriptografá-los utilizando as ferramentas certas. 
 ## Solution
-A questão nos fornece um arquivo contendo um texto codificado e nos tópicos da questão é mencionado o uso de "base64" e "Caesar". Então, já podemos identificar duas dicas das bases que teremos que usar para decodificar o texto. Primeiramente, eu abri o arquivo anexado e encontrei o seguinte texto:
+A questão nos fornece um arquivo com um texto codificado e, nos tópicos, menciona o uso de "Base64" e "Cifra de César". Isso já nos dá duas dicas importantes sobre os métodos de decodificação. Primeiro, abri o arquivo e encontrei o seguinte texto:
 
 [![quest4-1.png](https://i.postimg.cc/KjTFMWSv/quest4-1.png)](https://postimg.cc/QKjRL0dR)
 
-Então, para extrair esse texto em base64 eu fui ao site https://www.base64decode.org/ e colei o texto encontrado no bloco de notas.
+Para extrair o texto em Base64, fui ao site https://www.base64decode.org/ e colei o conteúdo do arquivo. Na mensagem gerada, percebi um texto entre as reticências. É preciso copiá-lo e colá-lo no campo de decodificação para gerar outra mensagem em Base64."
 
 [![quest4-2.png](https://i.postimg.cc/Sx1MVXY2/quest4-2.png)](https://postimg.cc/87WczzHN)
 
@@ -16,8 +16,8 @@ Na mensagem gerada, percebe-se que há um texto entre as reticências. Devemos c
 
 [![quest4-3.png](https://i.postimg.cc/q7tCFk2m/quest4-3.png)](https://postimg.cc/qtTRhHbn)
 
-Agora obtivemos um texto codificado em Caeser. Porém como podemos afirmar isso? 
-Simples, na base Caeser o texto decodificado tem o mesmo número de caracteres do texto original tanto que o texto acima está no formato da flag! Consequentemente, considerando o número de letras do alfabeto há 25 posições possíveis para as letras do texto codificado assumirem.
+Acabamos de obter um texto codificado em Cifra de César. Como podemos saber isso?
+A explicação é simples: a Cifra de César mantém o mesmo número de caracteres do texto original no seu resultado decodificado. Nosso texto, por exemplo, já segue o formato de flag. Além disso, como trabalhamos com as letras do alfabeto, existem 25 posições de deslocamento possíveis para as letras no texto cifrado.
 
 Por fim, acessei https://www.dcode.fr/cipher-identifier e apliquei a força bruta para o computador testar as possíveis posições e a flag foi revelada!
 
