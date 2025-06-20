@@ -39,7 +39,7 @@ Desta forma, estamos prontos para escrever nosso script que ficou conforme a fot
 
 [![Captura-de-Tela-11.png](https://i.postimg.cc/MG8gJ5WJ/Captura-de-Tela-11.png)](https://postimg.cc/bZ3mQQDm)
 Mas o que significa cada linha de código? será explicado no passo-a-passo a seguir:
-* começamos importando o módulo **"pwn"** e a função **xor**
+* começamos importando o biblioteca **"pwn"** e a função **xor**
 * em seguida nós declaramos as chaves e a flag e as definimos como "bytes.fromhex" para que sejam geradas em bytes.
 * computamos a associação que gerará a chave 2 e 3 (perceba que estamos apenas escrevendo aquelas saídas que a própria qiestão nos deu)
 * támbem fazemos o mesmo para com a flag que é associção XOR de todas as chaves juntas e o resultado jogado na função XOR novamente 
